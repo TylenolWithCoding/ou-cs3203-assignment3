@@ -12,7 +12,12 @@ def producter(list):
     
     return sum
 
+def reverser(list):
+    d = []
+    for i in reversed(list):
+        d.append(i)
 
+    return d
 
 def main():
     b = []
@@ -24,6 +29,7 @@ def main():
 
     print(adder(b))
     print(producter(b))
+    print(reverser(b))
 if __name__ == "__main__":
     main()
 
