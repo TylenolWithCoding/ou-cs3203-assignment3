@@ -5,3 +5,10 @@ def adder(list):
     
     return sum
 
+def producter(list):
+    sum = 1
+    for i in list:
+        sum = sum * i
+    
+    return sum
+
