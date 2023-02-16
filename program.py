@@ -27,6 +27,8 @@ def main():
         c = int(input("Enter your number and press enter after each one: "))
         b.append(c)
 
+    print(adder(b))
+    print(producter(b))
     print(reverser(b))
 if __name__ == "__main__":
     main()
