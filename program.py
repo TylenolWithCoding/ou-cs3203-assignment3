@@ -18,7 +18,7 @@ def reverser(list):
         d.append(i)
 
     return d
-
+//tivial change for part 10
 def main():
     b = []
     size = int(input("How many numbers are you providing? "))
